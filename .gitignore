@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+env/
+venv/
+ENV/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Django-specific
+*.log
+*.pot
+*.sqlite3
+db.sqlite3
+media/  # Exclude user-uploaded media files (can be managed by deployment config)
+static/ # Exclude collected static files (generated on deployment)
+local_settings.py # Exclude local settings with sensitive data
+
+# Environment files
+.env
+.venv
+
+# IDE-specific (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
